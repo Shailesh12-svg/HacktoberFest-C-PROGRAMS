@@ -7,11 +7,11 @@ int main(){
    scanf("%d",&n);
    int number[n];
    printf("Enter %d elements: ", n);
-   // This loop would store the input numbers in array
+  
    for(i=0;i<n;i++)
       scanf("%d",&number[i]);
 
-   // Implementation of insertion sort algorithm
+  
    for(i=1;i<n;i++){
       temp=number[i];
       j=i-1;
