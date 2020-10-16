@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
 
-   int i, j, n, temp, number[25];
+   int i, j, n, temp;
 
    printf("Enter the number you are going to enter: ");
    scanf("%d",&n);
-
+   int number[n];
    printf("Enter %d elements: ", n);
    // This loop would store the input numbers in array
    for(i=0;i<n;i++)
